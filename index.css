@@ -12,7 +12,7 @@
 #hero{
     width: 100%;
     height: 100vh;
-    background-color: rgb(9, 145, 190);
+    background-color: rgb(216, 241, 249);
     position: relative;
     padding-top: 40px;
     padding-right: 40px;
@@ -47,4 +47,50 @@
 
 .lists a{
     text-decoration: none;
+    font-size: 18px;
+    color: #1c402c;
+}
+
+.lists a:hover{
+    color: #029845;
+    transition: all 400ms ease;
+}
+
+.btns{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.btns button{
+    cursor: pointer;
+}
+
+.btns img{
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    display: none;
+}
+
+.btns button:nth-child(1){
+    outline: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: none;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #a1ff0a;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btns button:nth-child(2){
+    outline: none;
+    background-color: transparent;
+    color: #1c402c;
+    border: none;
+    font-size: 16px;
 }
