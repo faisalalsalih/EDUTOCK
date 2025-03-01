@@ -29,18 +29,50 @@
     width: 70%;
     height: 100%;
     background-color: pink;
+    display: flex;
 }
 
 
-.second{
+.last{
     width: 30%;
     height: 100%;
     background-color: aqua;
 }
 
 
+.firstone{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.secondone{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
 
 
+.di1{
+    width: 90px;
+    height: 100%;
+    background-color: rgb(10, 237, 63);
+}
+
+.di2{
+    width: 90px;
+    height: 100%;
+    background-color: rgb(10, 237, 63);
+}
+
+
+.di3{
+    width: 90px;
+    height: 100%;
+    background-color: rgb(10, 237, 63);
+}
 
 
 
