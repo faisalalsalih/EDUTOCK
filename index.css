@@ -75,10 +75,71 @@
 }
 
 
+.logo1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo1a .span1{
+    font-size: 32px;
+    color: #3b4d41;
+}
+
+.logo1a .span2{
+    font-size: 32px;
+    color: #77c080;
+}
+
+.logo1b a{
+    text-decoration: none;
+    color: #3b4d41;
+    cursor: pointer;
+}
+
+.logo1b a:hover{
+    color: #8cad87;
+    transition: all 400ms ease-in;
+}
 
 
+.logo2{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
 
+.sixty{
+    font-size: 24px;
+    color: #3b4d41;
+    margin-right: 12px;
+}
 
+.stud{
+    font-size: 16px;
+}
+.avg{
+    color: #1c402c;
+    font-size: 12px;
+}
 
+.text{
+    padding: 20px;
+    display: flex;
+}
 
+.text .get{
+    font-size: 60px;
+    color: #1c402c;
+    font-weight: 350;
+}
 
+.awal{
+    display: flex;
+    padding: 10px;
+    margin-top: 18px;
+}
