@@ -52,26 +52,30 @@
     background-color: blue;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 
 .di1{
     width: 90px;
     height: 100%;
-    background-color: rgb(10, 237, 63);
+    /* background-color: rgb(10, 237, 63); */
+    background-color: #1b5334;
 }
 
 .di2{
     width: 90px;
     height: 100%;
-    background-color: rgb(10, 237, 63);
+    /* background-color: rgb(10, 237, 63); */
+    background-color: #1b5334;
 }
 
 
 .di3{
     width: 90px;
     height: 100%;
-    background-color: rgb(10, 237, 63);
+    /* background-color: rgb(10, 237, 63); */
+    background-color: #1b5334;
 }
 
 
@@ -141,5 +145,32 @@
 .awal{
     display: flex;
     padding: 10px;
-    margin-top: 18px;
+    margin-top: 20px;
+}
+
+.awal a{
+    color: #ddede7;
+    text-decoration: none;
+}
+
+.awal3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.awal3 a{
+    text-decoration: none;
+    color: #ddede7;
+}
+
+
+.secondone img{
+    position: absolute;
+    bottom: 0;
+    height: 550px;
+    width: 505px;
+    /* right: 10px; */
+    max-width: 100%;
+    max-height: 100%;
 }
