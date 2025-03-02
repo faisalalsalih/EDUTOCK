@@ -224,3 +224,63 @@
 
 
 
+/* Responsive the Hero section here */
+
+
+@media only screen and (max-width:1150px){
+    .text .get{
+        font-size: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width:1030px){
+    .content{
+        flex-direction: column;
+    }
+    .first{
+        width: 100%;
+        height: fit-content;
+    }
+    .last{
+        width: 100%;
+        height: fit-content;
+    }
+    .last1{
+        margin-bottom: 50px;
+        gap: 200px;
+    }
+    .last2{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:720px){
+    .first{
+        flex-direction: column;
+        height: 180vh;
+    }
+
+    .content{
+        height: 1200px;
+    }
+
+    .firstone{
+        width: 100%;
+        height: 115vh;
+    }
+
+    .secondone{
+        width: 100%;
+        height: 600px;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    .last1{
+        gap: 100px;
+    }
+}
