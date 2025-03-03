@@ -172,7 +172,7 @@
     width: 505px;
     /* right: 10px; */
     max-width: 100%;
-    max-height: 100%;
+    max-height: 85%;
 }
 
 
@@ -212,9 +212,9 @@
 
 
 .last2 p{
-    color: black;
-    font-weight: 300;
-    font-size: 18px;
+    color: #1c402c;
+    font-weight: 400;
+    font-size: 22px;
 }
 
 .last1 img{
@@ -284,3 +284,14 @@
         gap: 100px;
     }
 }
+
+
+
+
+/* ============= THE END OF HERO SECTION HERE ==================== */
+
+
+
+
+/* ============== START OF THE LOGOS SECTION HERE ================== */
+
