@@ -359,3 +359,58 @@
         font-size: 28px;
     }
 }
+
+
+
+/* ========== Explore Side Start from here ============ */
+
+#explore{
+    width: 100%;
+    height: 300px;
+    background-color: #0fe770;
+    padding: 20px;
+}
+
+.explore{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.exp1 h1{
+    font-size: 60px;
+    color: #1c402c;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.exp1 p{
+    color: rgb(32, 31, 31);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.exp2 button{
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+    background-color: #1c402c;
+    color: #f9efe5;
+}
+
+
+/* Responsive the explore section here */
+
+@media only screen and (max-width:1190px){
+    .explore{
+        flex-direction: column;
+        gap: 100px;
+        align-items: start;
+    }
+    #explore{
+        height: fit-content;
+    }
+}
