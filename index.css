@@ -436,8 +436,30 @@
 .box1{
     width: 320px;
     height: 420px;
-    background-color: blue;
+    background-color: #1c402c;
     cursor: pointer;
+    padding: 15px;
+    position: relative;
+    color: whitesmoke;
+
+    &:hover{
+        background-color: #f9efe5;
+        color: #1c402c;
+        transition: all 400ms ease-in-out;
+    }
+}
+
+.box1a{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.box1a h1{
+    font-size: 32px;
+}
+
+.box1a p{
+    font-size: 14px;
 }
 
 .box2{
@@ -445,11 +467,114 @@
     height: 420px;
     background-color: blue;
     cursor: pointer;
+    padding: 15px;
+    position: relative;
+    background-color: #f9efe5;
+    color: #1c402c;
+
+
+    &:hover{
+        background-color: #1c402c;
+        color: whitesmoke;
+        transition: all 400ms ease-in-out;
+    }
+}
+
+.box2:hover .arrow2{
+    display: flex;
+    transition: all 700ms ease;
+}
+
+
+.box3:hover .arrow3{
+    display: flex;
+    transition: all 700ms ease;
+}
+
+.box2a{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.box2a h1{
+    font-size: 32px;
+}
+.box2a p{
+    font-size: 14px;
 }
 
 .box3{
     width: 320px;
     height: 420px;
-    background-color: blue;
+    background-color: #f9efe5;
     cursor: pointer;
+    padding: 15px;
+    position: relative;
+
+
+    &:hover{
+        background-color: #1c402c;
+        color: whitesmoke;
+        transition: all 400ms ease-in-out;
+    }
+}
+
+.box3a{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.box3a h1{
+    font-size: 32px;
+}
+
+.box3a p{
+    font-size: 14px;
+}
+
+
+.arrow1{
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid black; */
+    background-color: #23b357;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: -20px;
+    left: 230px;
+}
+
+.arrow2{
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid black; */
+    background-color: #23b357;
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: -20px;
+    left: 230px;
+}
+
+
+.arrow3{
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid black; */
+    background-color: #23b357;
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: -20px;
+    left: 230px;
 }
