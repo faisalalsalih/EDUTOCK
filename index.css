@@ -440,7 +440,7 @@
 #boxes{
     width: 100%;
     height: 500px;
-    background-color: #1b5334;
+    /* background-color: #1b5334; */
 }
 
 
@@ -612,4 +612,99 @@
     #boxes{
         height: fit-content;
     }
+}
+
+
+
+
+/* =============  Explore section starts from here ================ */
+
+#expert{
+    width: 100%;
+    height: fit-content;
+    background-color: #02060f;
+    /* background-color: #013e0a; */
+}
+
+.experta{
+    color: whitesmoke;
+}
+
+.expert1{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.experta h1{
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.gola{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #eefef5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.dbor{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px dotted #eefef5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+
+.expertb{
+    width: 400px;
+    height: 95vh;
+}
+
+.expertb img{
+    width: 100%;
+    height: 100%;
+}
+
+.product{
+    font-size: 32px;
+    font-weight: 400;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.theory{
+    font-size: 16px;
+    font-weight: 520;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.expertc{
+    margin-top: 20px;
 }
