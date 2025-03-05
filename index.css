@@ -408,17 +408,34 @@
     .explore{
         flex-direction: column;
         gap: 100px;
-        align-items: start;
+        align-items: center;
+        text-align: center;
     }
     #explore{
         height: fit-content;
     }
 }
 
+@media only screen and (max-width:880px){
+    .exp1 h1{
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (max-width:740px){
+    .exp1 h1{
+        font-size: 40px;
+    }
+    .explore{
+        padding-top: 10px;
+        gap: 60px;
+    }
+}
 
 
 
-/* Boxes section start from here */
+/* ============== Boxes section start from here ==================== */
 
 #boxes{
     width: 100%;
