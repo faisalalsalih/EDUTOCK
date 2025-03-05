@@ -708,3 +708,123 @@
 .expertc{
     margin-top: 20px;
 }
+
+
+
+
+/* ================= Explore Section start from here ============ */
+
+#projects{
+    width: 100%;
+    height: 800px;
+    background-color: #05d964;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    padding-top: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.description h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.description p{
+    font-size: 18px;
+    color: #1c402c;
+    font-weight: 400;
+}
+
+
+.desc2 button{
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #1c402c;
+}
+
+
+/* Responnsive the description side here */
+
+@media only screen and (max-width:1085px){
+    .description{
+        gap: 300px;
+    }
+}
+
+
+@media only screen and (max-width:1040px){
+    .description{
+        gap: 200px;
+    }
+}
+
+
+@media only screen and (max-width:930px){
+    .description{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width:640px){
+    .description h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .description p{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
+.project1{
+    width: 320px;
+    height: 480px;
+    background-color: #f9efe5;
+    overflow: hidden;
+}
+
+.project1 img{
+    width: 100%;
+    height: 50%;
+}
+
+.goli{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('fl1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.pd{
+    padding: 20px;
+}
+
+.pd .design{
+    margin-bottom: 20px;
+}
+
+.row{
+    width: 100%;
+    height: 1px;
+    border-radius: 12px;
+    background-color: #b8f3d2;
+}
