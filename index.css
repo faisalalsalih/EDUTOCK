@@ -1408,9 +1408,9 @@
 }
 
 .footer{
-    width: 80%;
-    height: 80vh;
-    background-color: blue;
+    width: 90%;
+    height: fit-content;
+    /* background-color: blue; */
     padding-top: 40px;
 }
 
@@ -1490,9 +1490,9 @@
 
 .group2{
     display: flex;
-    justify-content: center;
-    gap: 140px;
+    justify-content: space-between;
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .group2 ul{
@@ -1509,6 +1509,7 @@
     height: 1px;
     border-radius: 14px;
     background-color: #d5eee0;
+    margin-bottom: 40px;
 }
 
 .copy2{
@@ -1518,4 +1519,48 @@
 .low{
     display: flex;
     justify-content: space-between;
+}
+
+
+
+/* ======= Responsive the Footer Section Here ============ */
+@media only screen and (max-width:890px){
+    .group1{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .group2{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .group2b{
+        margin-right: 120px;
+    }
+    .group2c{
+        margin-right: 120px;
+    }
+    .group2d{
+        margin-right: 150px;
+    }
+    .low{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+
+@media only screen and (max-width:580px){
+    .bar{
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width:470px){
+    .bar{
+        width: 300px;
+    }
 }
