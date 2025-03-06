@@ -734,8 +734,9 @@
 
 #projects{
     width: 100%;
-    height: 800px;
-    background-color: #05d964;
+    height: fit-content;
+    /* background-color: #05d964; */
+    padding-bottom: 100px;
 }
 
 .description{
@@ -813,12 +814,75 @@
     height: 480px;
     background-color: #f9efe5;
     overflow: hidden;
+    color: black;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #1c402c;
+        transition: all 400ms ease-in-out;
+    }
+
+    &:active{
+        background-color: #1c402c;
+        transition: all 400ms ease-in-out;
+    }
+
 }
 
 .project1 img{
     width: 100%;
     height: 50%;
 }
+
+.project2{
+    width: 320px;
+    height: 480px;
+    background-color: #f9efe5;
+    overflow: hidden;
+    color: black;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #1c402c;
+        transition: all 400ms ease-in-out;
+    }
+
+    &:active{
+        background-color: #1c402c;
+        transition: all 400ms ease-in-out;
+    }
+}
+
+.project2 img{
+    width: 100%;
+    height: 50%;
+}
+
+.project3{
+    width: 320px;
+    height: 480px;
+    background-color: #1c402c;
+    color: black;
+    overflow: hidden;
+    cursor: pointer;
+
+
+    &:hover{
+        background-color: #1c402c;
+        transition: all 400ms ease-in-out;
+    }
+
+    &:active{
+        background-color: #1c402c;
+        transition: all 400ms ease-in-out;
+    }
+}
+
+.project3 img{
+    width: 100%;
+    height: 50%;
+}
+
 
 .goli{
     width: 50px;
@@ -829,16 +893,68 @@
     background-position: center;
 }
 
+.goli2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('fl2.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.goli3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('fl3.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
 .flex{
     display: flex;
     gap: 20px;
     align-items: center;
 }
+
+.flex2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.flex3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
 .pd{
     padding: 20px;
 }
 
+.pd2{
+    padding: 20px;
+}
+
+
+.pd3{
+    padding: 20px;
+}
+
 .pd .design{
+    margin-bottom: 20px;
+}
+
+
+.pd2 .design2{
+    margin-bottom: 20px;
+}
+
+
+.pd3 .design3{
     margin-bottom: 20px;
 }
 
@@ -847,4 +963,136 @@
     height: 1px;
     border-radius: 12px;
     background-color: #b8f3d2;
+}
+
+.row2{
+    width: 100%;
+    height: 1px;
+    border-radius: 12px;
+    background-color: #b8f3d2;
+}
+
+
+
+.row3{
+    width: 100%;
+    height: 1px;
+    border-radius: 12px;
+    background-color: #b8f3d2;
+}
+
+
+.rates{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.rates2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+
+.rates3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.rounded{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded img{
+    width: 10px;
+    height: 10px;
+}
+
+
+.ratesi{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ratesii{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.rounded2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded2 img{
+    width: 10px;
+    height: 10px;
+}
+
+
+.ratesi2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ratesii2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rounded3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded3 img{
+    width: 10px;
+    height: 10px;
+}
+
+
+.ratesi3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ratesii3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
