@@ -464,6 +464,12 @@
         color: #1c402c;
         transition: all 400ms ease-in-out;
     }
+
+    &:active{
+        background-color: #f9efe5;
+        color: #1c402c;
+        transition: all 400ms ease-in-out;
+    }
 }
 
 .box1a{
@@ -491,6 +497,12 @@
 
 
     &:hover{
+        background-color: #1c402c;
+        color: whitesmoke;
+        transition: all 400ms ease-in-out;
+    }
+
+    &:active{
         background-color: #1c402c;
         color: whitesmoke;
         transition: all 400ms ease-in-out;
@@ -530,6 +542,12 @@
 
 
     &:hover{
+        background-color: #1c402c;
+        color: whitesmoke;
+        transition: all 400ms ease-in-out;
+    }
+
+    &:active{
         background-color: #1c402c;
         color: whitesmoke;
         transition: all 400ms ease-in-out;
@@ -787,6 +805,8 @@
     }
 }
 
+
+/* ================= Projects Section starts from here ================ */
 
 .project1{
     width: 320px;
