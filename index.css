@@ -1421,6 +1421,9 @@
 .spani2{
     color: #23b357;
 }
+.spani{
+    color: #02060f;
+}
 
 .group1{
     display: flex;
@@ -1452,4 +1455,34 @@
     border: none;
     background-color: #1c402c;
     color: #f9efe5;
+}
+
+.cir{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cir img{
+    width: 20px;
+    height: 20px;
+}
+
+.jama{
+    display: flex;
+    gap: 20px;
+}
+
+.abou{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.people{
+    margin-bottom: 20px;
 }
