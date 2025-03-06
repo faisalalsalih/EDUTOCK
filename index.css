@@ -1158,7 +1158,7 @@
 .forms2{
     width: 550px;
     height: 600px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 230px;
     background-color: #f9efe5;
     display: flex;
@@ -1281,3 +1281,106 @@
     font-size: 16px;
     margin-bottom: 20px;
 }
+
+
+
+
+
+/* Responsive the Form Section */
+
+@media only screen and (max-width:1180px){
+    .forms{
+        gap: 140px;
+    }
+}
+
+
+@media only screen and (max-width:1130px){
+    .forms{
+        gap: 100px;
+    }
+}
+
+
+@media only screen and (max-width:1085px){
+    .forms{
+        gap: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width:1030px){
+    .forms{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .forms2{
+        margin-top: 60px;
+    }
+    .forms{
+        height: fit-content;
+        padding-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width:590px){
+    .forms2{
+        width: 500px;
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width:560px){
+    .forms2{
+        width: 450px;
+        height: 550px;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    .forms2{
+        text-align: center;
+    }
+    .elements1{
+        width: 320px;
+        /* margin-left: 50px; */
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .elements2{
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .elema{
+        width: 320px;
+    }
+
+    .elemb{
+        width: 320px;
+    }
+    .elements3{
+        width: 320px;
+        /* margin-left: 50px; */
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .forms2 textarea{
+        width: 320px;
+        height: 70px;
+    }
+
+    .elements5{
+        margin: auto;
+    }
+    .forms2{
+        width: fit-content;
+    }
+    .forms{
+        overflow: hidden;
+    }
+}
+
