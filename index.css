@@ -308,7 +308,8 @@
 #logos{
     width: 100%;
     height: 200px;
-    /* background-color: #77c080; */
+    background-color: #77c080;
+    padding-bottom: 70px;
 }
 
 #logos .heading h3{
