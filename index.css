@@ -172,7 +172,7 @@
     width: 505px;
     /* right: 10px; */
     max-width: 100%;
-    max-height: 85%;
+    max-height: 100%;
 }
 
 
@@ -263,7 +263,7 @@
 @media only screen and (max-width:720px){
 
     #hero{
-        height: 1600px;
+        height: 1400px;
     }
     .first{
         flex-direction: column;
@@ -271,12 +271,20 @@
 
     .firstone{
         width: 100%;
-        height: 90vh;
+        height: 80vh;
     }
 
     .secondone{
         width: 100%;
-        height: 600px;
+        height: 400px;
+        margin-bottom: 80px;
+    }
+    .secondone img{
+        left: 10%;
+        /* height: 400px; */
+        max-height: 85%;
+        max-width: 80%;
+        /* height: 100%; */
     }
 }
 
